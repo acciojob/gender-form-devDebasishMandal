@@ -22,7 +22,7 @@ function input(){
         {
           val==="male"?(
           <div>
-          <h1>Select your shirt size:</h1>
+          <h2>Select your shirt size:</h2>
       
           <select name="size" id="size">
   <option value="">select size</option>
@@ -32,8 +32,7 @@ function input(){
 </select>
           </div>
           ):(<div>
-          <h1>Select your dress size:</h1>
-      
+          <h2>Select your dress size:</h2>
           <select name="size" id="size">
   <option value="">select size</option>
   <option value="2">2</option>
